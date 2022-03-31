@@ -1,17 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Merriweather:wght@300&family=Poppins:ital,wght@1,300&display=swap');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif; 
-    
-}
 
-.Product{
-  width: 100vw;
-  height: calc(100vh - 60px); 
-}
+  
 .container_cards{
    display: flex;
    flex-wrap: wrap;
@@ -36,7 +26,7 @@
 
 .card {
 	margin-bottom: 1.2em;	
-  border-style: solid;
+ 
 }
 
 .card_content h2 {
