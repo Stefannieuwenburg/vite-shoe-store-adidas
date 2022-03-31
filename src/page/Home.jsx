@@ -10,6 +10,7 @@ const Home = () => {
 
     return (
         <div className={styles.Home}>
+            <h1>Adidas lanceert</h1>
             <button className={styles.button} onClick={onClick}>
                 Buy Now
             </button>

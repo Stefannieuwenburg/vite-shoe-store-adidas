@@ -11,6 +11,10 @@
   font-size: 3rem;
   font-family: 'Poppins', sans-serif; 
 }
+.Home h1{
+  color:#ffc107;
+  font-style: oblique;
+}
 
 .button {
   background: #fff;

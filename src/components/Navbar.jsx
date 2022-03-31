@@ -23,7 +23,7 @@ const Navbar = () => {
                         <FaBars onClick={showSidebar} />
                     </Link>
                     <img className="navbar_img" src={NavBarImage} alt="navbar_image" />
-                    <p>Adidas shoe store sale</p>
+                    <p>Adidas shoe store</p>
                 </div>
 
                 <nav className={sidebar ? "nav_menu  active" : "nav_menu"}>
