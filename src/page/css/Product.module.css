@@ -1,52 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Merriweather:wght@300&family=Poppins:ital,wght@1,300&display=swap');
 
-
-  
-.container_cards{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+            /* font-family: 'Archivo Narrow', sans-serif; */
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Merriweather:wght@300&family=Poppins:ital,wght@1,300&display=swap');
+ /* font-family:'Poppins', */
+Body {
+    font-family:'Poppins','Archivo Narrow', sans-serif;
 }
-.Product h2{
-  font-size: 0.6rem;
-  
+h1,h2,h3{
+    margin: 0.5rem 0;
+    color:white;
 }
-.Product h1{
-  font-size: 2.0rem;
-  
+h1{
+    font-size: 1.5rem;
 }
-.item {
-
-  margin: 5px;
-	border: 0;
-	width: 15%;
-	height: 15%;
-
+h2{
+    font-size: 1.2rem;
 }
-
-.card {
-	margin-bottom: 1.2em;	
- 
+h3{
+    font-size: 1rem;
 }
-
-.card_content h2 {
-	margin-top: 0;
-	margin-bottom: .5em;
-	font-weight: bold;
- 
+a {
+    text-decoration: none;
+    color:white;
 }
-.card_content p {
-  font-size: 1.1rem;
-  font-family: 'Poppins', sans-serif; 
+.col_1{
+    flex:1;   
+}
+.col_2{
+    flex:2; 
 }
 
-
-.card {
-	flex: 0 1 24%;
+.flex_block_center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(48, 47, 47);
+    padding:0.7rem;
+    margin:0.5rem;
+    border-radius: 0.5rem;
+    
 }
-
-p{
-  font-family: 'Poppins', sans-serif; 
-}
-
-

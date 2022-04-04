@@ -69,16 +69,21 @@
     justify-content: start;
     align-items: center;
 }
-span{
+.span{
     margin-left: 16px;
 }
-p{
+.p{
     color:#ffc107;
     height: 2rem;
     font-size: 28px;
     margin-left: 20px;
     font-weight: bold;
     
+}
+.login_block{
+    align-items: center;
+    margin-left: 16px;
+    font-size: 20px;
 }
 
 

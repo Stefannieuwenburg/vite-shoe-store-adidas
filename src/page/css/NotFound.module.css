@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Merriweather:wght@300&family=Poppins:ital,wght@1,300&display=swap');
+
 
 .NotFound {
     width: 100vw;
@@ -9,17 +9,15 @@
     font-size: 3rem;
     flex-direction: column; 
 }
-p{
-  font-family: 'Poppins', sans-serif; 
-}
+
 .container h1 {
   color: white;
   text-shadow: 0 0 5px rgb(37, 37, 37);
 }
 
 .button {
-  color: rgb(133, 131, 131) !important;
-  border-color: white !important;
+  color: rgb(133, 131, 131) ;
+  border-color: white ;
 }
 .p{
   color: red;

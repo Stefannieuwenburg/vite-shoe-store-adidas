@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Merriweather:wght@300&family=Poppins:ital,wght@1,300&display=swap');
+.block_col_1{
+    flex:1; 
+    background-color: rgb(48, 47, 47);
+    padding:1rem;
+    margin:0.5rem;
+    border-radius: 0.5rem; 
+}
 
 .ShopCart {
   width: 100vw;
-  height: calc(100vh - 60px);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,9 +16,7 @@
   font-size: 3rem;
   
 }
-p{
-  font-family: 'Poppins', sans-serif; 
-}
+
 .button {
   color: rgb(66, 65, 65);
   border-color: rgb(65, 64, 64);

@@ -22,8 +22,17 @@ const Navbar = () => {
                     <Link to="#" className="menu_bars">
                         <FaBars onClick={showSidebar} />
                     </Link>
-                    <img className="navbar_img" src={NavBarImage} alt="navbar_image" />
-                    <p>Adidas shoe store</p>
+                    <img
+                        className="navbar_img"
+                        src={NavBarImage}
+                        alt="navbar_image"
+                    />
+                    <p className="p">Adidas shoe store</p>
+                    <div className="login_block">
+                        <a href="#/Cart">
+                            Cart
+                        </a> <a href="#/Lognin">Login</a>
+                    </div>
                 </div>
 
                 <nav className={sidebar ? "nav_menu  active" : "nav_menu"}>
@@ -37,7 +46,9 @@ const Navbar = () => {
                             return (
                                 <li key={index} className={item.cName}>
                                     <Link to={item.path}>
-                                        <span>{item.title}</span>
+                                        <span className="span">
+                                            {item.title}
+                                        </span>
                                     </Link>
                                 </li>
                             );
