@@ -5,6 +5,17 @@
 Body {
     font-family:'Poppins','Archivo Narrow', sans-serif;
 }
+.flex_block_center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(48, 47, 47);
+    padding:0.7rem;
+    margin:0.5rem;
+    
+    
+}
+
 h1,h2,h3{
     margin: 0.5rem 0;
     color:white;
@@ -29,13 +40,4 @@ a {
     flex:2; 
 }
 
-.flex_block_center{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:rgb(0, 0, 68);
-    padding:0.7rem;
-    margin:0.5rem;
-    border-radius: 0.5rem;
-    
-}
+

@@ -1,3 +1,13 @@
+.flex_block_center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(48, 47, 47);
+    padding:0.7rem;
+    margin:0.5rem;
+    border-radius: 0.5rem;
+    
+}
 .block_col_1{
     flex:1; 
     background-color: rgb(48, 47, 47);
@@ -22,3 +32,41 @@
   border-color: rgb(65, 64, 64);
 }
 
+.flex_box{ 
+    display: flex;
+    justify-content: space-between;
+}
+.col_2{
+    flex:2; 
+}
+.text_right{
+    text-align: right;
+}
+.col_1_text_right{
+    flex:1;
+    text-align: right;
+}
+.col_2_text_right{
+    flex:2;
+    text-align: right;
+}
+.button{
+    font-size: 0.9rem;
+    font-weight:lighter;
+    font-family:'Poppins';
+    padding: 0.1rem;
+    margin: 0.1rem;
+    background-color:rgba(200, 250, 126, 0.625);
+    width: 90%;
+    cursor: pointer;
+}
+.button_add{
+    background-color:rgba(14, 14, 254, 0.733);
+    width: 3.0rem;
+    
+}
+.button_remove{
+    background-color:rgba(252, 36, 36, 0.697);
+    width: 3.0rem;
+   
+}

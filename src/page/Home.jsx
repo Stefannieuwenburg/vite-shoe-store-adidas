@@ -4,9 +4,9 @@ import styles from "./css/Home.module.css";
 import React from "react";
 
 
-const Home = () => {
+const Home = (props) => {
     const navigate = useNavigate();
-    const onClick = () => navigate("/shopCart");
+    const onClick = () => navigate("/ShopCart");
 
     return (
         <div className={styles.Home}>

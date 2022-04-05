@@ -3,8 +3,10 @@ import style from "./css/ShopCart.module.css";
 
 
 export default function ShopCart(props) {
-    return <aside className={style.block_col_1}>
-        <h2>Cart Items</h2>
-        cart items
-        </aside>;
+    
+    return (
+        <div className={style.flex_block_center}>
+        <h1>shop cart</h1>
+        </div>
+    );
 }

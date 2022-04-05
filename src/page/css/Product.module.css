@@ -1,35 +1,3 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
-            /* font-family: 'Archivo Narrow', sans-serif; */
- @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Merriweather:wght@300&family=Poppins:ital,wght@1,300&display=swap');
- /* font-family:'Poppins', */
-Body {
-    font-family:'Poppins','Archivo Narrow', sans-serif;
-}
-h1,h2,h3{
-    margin: 0.5rem 0;
-    color:white;
-}
-h1{
-    font-size: 1.5rem;
-}
-h2{
-    font-size: 1.2rem;
-}
-h3{
-    font-size: 1rem;
-}
-a {
-    text-decoration: none;
-    color:white;
-}
-.col_1{
-    flex:1;   
-}
-.col_2{
-    flex:2; 
-}
-
 .flex_block_center{
     display: flex;
     justify-content: space-between;
@@ -39,4 +7,41 @@ a {
     margin:0.5rem;
     border-radius: 0.5rem;
     
+}
+.img_small{
+    max-height: 8rem;
+    border: 0.1rem #000000 transparent;
+}
+.button{
+    font-size: 0.9rem;
+    font-weight:lighter;
+    font-family:'Poppins';
+    padding: 0.1rem;
+    margin: 0.1rem;
+    border: 0.1rem #000000 transparent;
+    background-color:rgba(200, 250, 126, 0.625);
+    width: 90%;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:rgba(0, 128, 0, 0.674);
+}
+.button_add{
+    background-color:rgb(0, 0, 255);
+    width: 1.5rem;
+   
+}
+.button_remove{
+    background-color:rgb(255, 0, 0);
+    width: 1.5rem;
+   
+}
+.button_badge{
+    background-color:rgb(255, 0, 0);
+    border:none;
+    width: 1.5rem;
+    
+}
+.text_right{
+    text-align: right;
 }

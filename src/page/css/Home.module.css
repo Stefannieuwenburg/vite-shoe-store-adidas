@@ -3,7 +3,7 @@
 
 .Home {
   width: 100vw;
-  height: calc(100vh - 60px);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;

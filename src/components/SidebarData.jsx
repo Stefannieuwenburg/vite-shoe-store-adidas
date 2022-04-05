@@ -8,18 +8,19 @@ export const SIdebarData = [
 
     {
         title: "Products",
-        path: "/product",
+        path: "/Product",
         cName: "nav_text",
     },
     {
         title: "Productinfo",
-        path: "/productinfo",
+        path: "/ProductInfo",
         cName: "nav_text",
     },
 
     {
-        title: "shopcart",
-        path: "/shopcart",
+        title: "ShopCart",
+        path: "/ShopCart",
         cName: "nav_text",
     },
 ];
+

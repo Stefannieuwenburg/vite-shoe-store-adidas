@@ -1,4 +1,4 @@
-
+import React from "react";
 import style from "./css/Product.module.css";
 
 // import Items
@@ -7,19 +7,12 @@ import Item2 from "../images/item2.jpg";
 import Item3 from "../images/item3.jpg";
 import Item4 from "../images/item4.jpg";
 
-function product() {
+export default function Product(props) {
+    
+
     return (
-        <>
-            <header className={style.flex_block_center}>
-                <div>
-                    <a href="#/">
-                        <h1>Schopping cart</h1>
-                    </a>
-                </div>
-                
-            </header>
-        </>
+        <div className={style.flex_block_center}>
+            <h1>product</h1>
+        </div>
     );
 }
-
-export default product;

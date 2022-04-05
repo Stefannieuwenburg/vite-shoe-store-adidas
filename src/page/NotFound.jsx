@@ -2,7 +2,7 @@ import style from "./css/NotFound.module.css";
 import React from "react";
 import { useNavigate } from "react-router";
 
-const NotFound = () => {
+const NotFound = (props) => {
     const navigate = useNavigate();
 
     const onClick = () => navigate("/");
