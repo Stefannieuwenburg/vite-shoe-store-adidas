@@ -11,7 +11,7 @@ export default function Product(props) {
     
 
     return (
-        <div className={style.flex_block_center}>
+        <div className={style.flex_block_center} id="Product">
             <h1>product</h1>
         </div>
     );

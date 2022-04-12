@@ -27,11 +27,11 @@ const Navbar = () => {
                         src={NavBarImage}
                         alt="navbar_image"
                     />
-                    <p className="p">Adidas shoe store</p>
+                    
+
                     <div className="login_block">
-                        <a href="#/Cart">
-                            Cart
-                        </a> <a href="#/Lognin">Login</a>
+                            <a href="#/Cart">Cart</a>
+                            <a href="#/Lognin">Login</a>
                     </div>
                 </div>
 

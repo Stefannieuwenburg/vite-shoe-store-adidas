@@ -9,7 +9,7 @@ const Home = (props) => {
     const onClick = () => navigate("/ShopCart");
 
     return (
-        <div className={styles.Home}>
+        <div className={styles.Home} id="home">
             <h1>Adidas lanceert</h1>
             <button className={styles.button} onClick={onClick}>
                 Buy Now

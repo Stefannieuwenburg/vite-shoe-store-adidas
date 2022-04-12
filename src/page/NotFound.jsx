@@ -8,9 +8,11 @@ const NotFound = (props) => {
     const onClick = () => navigate("/");
 
     return (
-        <div className={style.NotFound}>
+        <div className={style.NotFound} id="notfound">
             <P className={style.p}>PAGE NOT FOUND</P>
-            <Button className={style.button} onClick={onClick}>Retour Home</Button>
+            <Button className={style.button} onClick={onClick}>
+                Retour Home
+            </Button>
         </div>
     );
 };

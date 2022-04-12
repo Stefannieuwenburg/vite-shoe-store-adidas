@@ -9,8 +9,6 @@ import NotFound from "./page/NotFound";
 import.meta.url
 
 
-
-
 const App = () => {
     return (
         <div>
