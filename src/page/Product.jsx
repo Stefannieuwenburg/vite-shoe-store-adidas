@@ -11,8 +11,63 @@ export default function Product(props) {
     
 
     return (
-        <div className={style.flex_block_center} id="Product">
-            <h1>product</h1>
-        </div>
+        <>
+            <div className={style.card_imag_grid}>
+                <div className={style.card_body}>
+                    <img className={style.img} src={Item1} alt="img" />
+                    <p>this is a card</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
+                    </p>
+                    <button className={style.btn_primary}>At to Cart</button>
+                </div>
+                <div className={style.card_body}>
+                    <img className={style.img} src={Item3} alt="img" />
+                    <p>this is a card</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
+                    </p>
+                    <button className={style.btn_primary}>At to Cart</button>
+                </div>
+                <div className={style.card_body}>
+                    <img className={style.img} src={Item1} alt="img" />
+                    <p>this is a card</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
+                    </p>
+                    <button className={style.btn_primary}>At to Cart</button>
+                </div>
+                <div className={style.card_body}>
+                    <img className={style.img} src={Item4} alt="img" />
+                    <p>this is a card</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
+                    </p>
+                    <button className={style.btn_primary}>At to Cart</button>
+                </div>
+                <div className={style.card_body}>
+                    <img className={style.img} src={Item3} alt="img" />
+                    <p>this is a card</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
+                    </p>
+                    <button className={style.btn_primary}>At to Cart</button>
+                </div>
+                <div className={style.card_body}>
+                    <img className={style.img} src={Item3} alt="img" />
+                    <p>this is a card</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
+                    </p>
+                    <button className={style.btn_primary}>At to Cart</button>
+                </div>
+            </div>
+        </>
     );
 }

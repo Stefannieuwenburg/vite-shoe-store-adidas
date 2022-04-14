@@ -6,7 +6,7 @@ import Product from "./page/Product";
 import ShopCart from "./page/ShopCart";
 import ProductInfo from "./page/ProductInfo";
 import NotFound from "./page/NotFound";
-import.meta.url
+
 
 
 const App = () => {

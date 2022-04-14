@@ -10,6 +10,10 @@
   justify-content: center;
   font-size: 3rem;
   font-family: 'Poppins', sans-serif; 
+  background-image: url("./src/images/item8.jpg");  
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: #fff;
 }
 .Home h1{
   color:#ffc107;

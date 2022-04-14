@@ -28,7 +28,6 @@ const Navbar = () => {
                         alt="navbar_image"
                     />
                     
-
                     <div className="login_block">
                             <a href="#/Cart">Cart</a>
                             <a href="#/Lognin">Login</a>
@@ -42,9 +41,9 @@ const Navbar = () => {
                                 <AiOutlineClose />
                             </Link>
                         </li>
-                        {SIdebarData.map((item, index) => {
+                        {SIdebarData.map((item, i) => {
                             return (
-                                <li key={index} className={item.cName}>
+                                <li key={i} className={item.cName}>
                                     <Link to={item.path}>
                                         <span className="span">
                                             {item.title}

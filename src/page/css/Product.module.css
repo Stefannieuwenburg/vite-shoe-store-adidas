@@ -8,9 +8,38 @@
     border-radius: 0.5rem;
     
 }
-.img_small{
-    max-height: 8rem;
-    border: 0.1rem #000000 transparent;
+.card {
+  background: #fff;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.3);
+  margin: .75rem 0 1.5rem;
+  position: relative;
+  max-width: 35rem;
+}
+.card_body {
+  padding: 2rem;
+  text-align: center;
+}
+.card_imag_grid{
+              display:grid;
+              grid-gap:1rem 3rem;
+              grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+              justify-items: center;
+}
+.img {
+  border-radius: .4rem;
+  max-width: 15rem;
+  
+}
+.btn_primary {
+  background: #f8ff3c;
+  border: 2px solid ;
+  border-radius: 4rem;
+  color: rgb(2, 2, 2);
+}
+.btn_primary:hover{
+  background: #9ea302;
 }
 .button{
     font-size: 0.9rem;
